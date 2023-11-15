@@ -1,0 +1,14 @@
+{
+    "name": "blr/php",
+    "description": "a test lib",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blr\\Php\\": "src/"
+        },
+        "files": [
+            "common\\function.php"
+        ]
+    },
+    "require": {}
+}
