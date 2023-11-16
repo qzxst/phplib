@@ -1,1 +1,6 @@
 # phplib
+
+```php
+<?php
+phpinfo();
+```
