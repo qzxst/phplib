@@ -6,5 +6,6 @@ class User
 {
   public function test()
   {
+    echo 'test';
   }
 }
