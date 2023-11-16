@@ -8,4 +8,9 @@ class User
   {
     echo 'test';
   }
+
+  public function ceshi()
+  {
+    echo 'ceshi';
+  }
 }
