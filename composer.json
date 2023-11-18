@@ -1,14 +1,22 @@
 {
-    "name": "blr/php",
-    "description": "a test lib",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Blr\\Php\\": "src/"
-        },
-        "files": [
-            "common\\function.php"
-        ]
+  "name": "blr/php",
+  "description": "a test lib",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Blr\\Php\\": "src/"
     },
-    "require": {}
+    "files": [
+      "common\\function.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Php": "tests/"
+    },
+    "files": [
+      "common\\test.php"
+    ]
+  },
+  "require": {}
 }
