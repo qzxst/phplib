@@ -1,7 +1,7 @@
 <?php
 
 
-function test()
+function ceshi()
 {
   echo 'test';
 }

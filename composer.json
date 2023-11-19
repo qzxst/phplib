@@ -12,11 +12,15 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Test\\Php": "tests/"
-    },
-    "files": [
-      "common\\test.php"
-    ]
+      "Test\\Php\\": "tests/"
+    }
   },
-  "require": {}
+  "require-dev": {
+    "pestphp/pest": "^1.23"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
 }
