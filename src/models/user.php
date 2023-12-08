@@ -2,12 +2,9 @@
 
 namespace Blr\Php\Models;
 
-class User
+class User extends Model
 {
-    public function test()
-    {
-        echo 'test';
-    }
+
 
     public function ceshi()
     {
