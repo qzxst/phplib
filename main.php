@@ -25,6 +25,7 @@ function makeSmallestPalindrome($s)
          * @since 2023-12-13 字符不同
          */
         if ($s[$left] != $s[$right]) {
+            
             /**
              * @since 2023-12-13 比较字典排序
              */
