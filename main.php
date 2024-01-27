@@ -15,6 +15,7 @@ function makeSmallestPalindrome($s)
 
     /**
      * @since 2023-12-13 左右指针，向中间移动
+     * 
      */
     $left = 0;
     $right = $len - 1;
@@ -25,7 +26,7 @@ function makeSmallestPalindrome($s)
          * @since 2023-12-13 字符不同
          */
         if ($s[$left] != $s[$right]) {
-            
+
             /**
              * @since 2023-12-13 比较字典排序
              */
@@ -50,4 +51,10 @@ function makeSmallestPalindrome($s)
 
 
 $const = makeSmallestPalindrome("jngingj");
-var_dump($const);
+
+// function test()
+// {
+//     return "ceshi";
+// }
+// var_dump($const);
+

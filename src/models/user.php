@@ -4,9 +4,7 @@ namespace Blr\Php\Models;
 
 class User extends Model
 {
-
-
-    public function ceshi()
+    public function ceshi(): void
     {
         echo 'ceshi';
     }
