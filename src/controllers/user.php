@@ -16,7 +16,7 @@ class User
             'host' => Env::get('DB_HOST', 'mysql'),
             'username' => Env::get('DB_USER', 'root'),
             'password' => Env::get('DB_PASS', '123456'),
-            'port' => Env::get('DB_PORT', '3306')
+            'port' => Env::get('DB_PORT', '3308')
         ];
         $user = new UserModel($conf);
         var_dump($user);
@@ -31,5 +31,6 @@ class User
 
     public function hello(): void
     {
+        
     }
 }
