@@ -11,3 +11,8 @@ function dump($arg)
 {
   var_dump($arg);
 }
+
+function sortArr(&$arr)
+{
+  var_dump($arr);
+}
