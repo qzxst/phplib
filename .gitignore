@@ -3,3 +3,6 @@ composer.lock
 .vscode/
 .idea/
 .env
+myreport.html/
+.php_cs.cache
+.phpunit.result.cache
